@@ -38,3 +38,8 @@ preload="auto"；如果出现该属性，则音频在页面加载时进行加载
 controls="controls"；如果出现该属性，则向用户显示控件，比如播放按钮。
 - src  
 src="src"；要播放的音频的 URL。也可以使用<source>标签来设置音频
+### 3. 相关文件引用 (jquery.min.js在main.js之前)
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+```
