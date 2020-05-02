@@ -1,7 +1,7 @@
 # PiKaQiu
 ### 用CSS3和动画写的一个皮卡丘 
 ***
-1. 速度的选择
+### 1. 速度的选择
 ```
 switch(speed){
       case 'slow': //慢速
@@ -16,7 +16,7 @@ switch(speed){
     }
  ```
  ***
- 2. 音乐的添加 audio 和 css 结合
+ ### 2. 音乐的添加 audio 和 css 结合
 #### audio
 ```
  <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls" src="./weiwei.mp3">你的浏览器不支持audio标签</audio>
