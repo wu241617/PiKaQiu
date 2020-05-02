@@ -46,4 +46,4 @@ src="src"；要播放的音频的 URL。也可以使用<source>标签来设置�
 - main.js中
 1. 调用 writeCode('',code) 函数实现页面的绘制，里面由 setTimeout 定时器运作；
 2. switch(speed){...} 实现速度的选择；
-3.  $button.addClass('active').siblings('.active').removeClass('active')实现按钮样式的变化
+3. $button.addClass('active').siblings('.active').removeClass('active')实现按钮样式的变化
