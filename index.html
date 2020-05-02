@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PiKaQiu</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<style id="styleTag"></style>
+</head>
+<body>
+	<div id="header">
+		<h3>皮卡丘诞生记</h3>
+		
+		<div class="actions">
+			<button data-speed="slow" class="active">慢速</button>
+			<button data-speed="normal" >中速</button>
+			<button data-speed="fast" >快速</button>
+		</div>
+		
+		<div class="music">
+			<audio autoplay="autoplay" loop="loop" preload="auto" controls="controls" src="./weiwei.mp3">
+			</audio>
+		</div>
+	</div>
+	<div id="text">
+		<div id="code-wrapper">
+			<pre id="code"></pre>
+		</div>
+		<div id="preview-wrapper">
+			<div id="preview">
+				 <div class="wrapper">
+				 	<div class="lowerLip-wrapper">
+				      <div class="lowerLip"></div>
+				    </div>
+				    <div class="nose"></div>
+				    <div class="eye left"></div>
+				    <div class="eye right"></div>
+				    <div class="face left"></div>
+				    <div class="face right"></div>
+				    <div class="upperLip left"></div>
+				    <div class="upperLip right"></div>
+				    
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
