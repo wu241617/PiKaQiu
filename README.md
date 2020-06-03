@@ -1,6 +1,7 @@
 # PiKaQiu
 ### 用CSS3和动画写的一个皮卡丘 
 ***
+### 预览链接 ： https://wu241617.github.io/PiKaQiu/index.html
 ### 1. 速度的选择
 ```
 switch(speed){
