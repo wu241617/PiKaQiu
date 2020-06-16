@@ -17,7 +17,7 @@ switch(speed){
     }
  ```
  ***
- ### 2. 音乐的添加 audio 和 css 结合
+### 2. 音乐的添加 audio 和 css 结合
 #### audio
 ```
  <audio autoplay="autoplay" loop="loop" preload="auto" controls="controls" src="./weiwei.mp3">你的浏览器不支持audio标签</audio>
