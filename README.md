@@ -4,7 +4,7 @@
 ***
 ### 预览链接 ： https://wu241617.github.io/PiKaQiu/index.html
 ***
-### 1. 速度的选择（慢速 / 快速 / 快速）
+### 1. 速度的选择（慢速 / 中速 / 快速）
 ```
 switch(speed){
       case 'slow': //慢速
